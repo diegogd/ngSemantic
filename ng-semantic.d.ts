@@ -1,3 +1,5 @@
+import { NgModule } from '@angular/core';
+
 export * from "./src/menu/menu";
 export * from "./src/contextmenu/contextmenu";
 export * from "./src/message/message";
@@ -27,9 +29,6 @@ export * from "./src/accordion/accordion";
 export declare let SEMANTIC_COMPONENTS: Array<any>;
 export declare let SEMANTIC_DIRECTIVES: Array<any>;
 
-import { NgModule } from "@angular/core";
-@NgModule({
-	declarations: [NgSemanticModule]
-})
+@NgModule()
 export declare class NgSemanticModule {
 }
